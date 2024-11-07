@@ -1,0 +1,180 @@
+body{
+  background-color: #a5deab;
+  margin: 0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#269239; 
+  
+}
+
+
+
+header img{
+  max-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  background-image: url(../good4food/images/vlakheader.png);
+  background-repeat: no-repeat;
+  background-size: 375px 72px;
+}
+
+main{
+  margin-bottom: 200px;
+}
+
+
+
+.new-section {
+  display: flex; 
+  align-items: center; 
+  background-color: #feeedf;
+  border: 3px solid #34a248; 
+  border-radius: 10px;
+}
+.new-section .soup-image {
+  max-height: 120px; 
+  margin-left: 30px; 
+}
+.schaap {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+}
+.schaap img {
+  max-width: 375px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+  
+
+section{
+  background-color: #feeedf;
+  border: 3px solid #34a248; 
+  border-radius: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1, h2, p{
+  margin: 10px;
+}
+
+h2{
+  font-size: 1em;
+}
+
+p{
+  font-size:smaller; 
+}
+
+
+article {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+article h1 {
+  background-color: #feeedf;
+  border: 3px solid #34a248; 
+  border-radius: 10px;
+  padding: 5px 5px; 
+  display: inline-block; 
+  margin: 10px auto; 
+}
+
+
+section img{
+ max-height: 200px;
+}
+
+
+.wistjedat div img{
+  height: 70px;
+}
+.wistjedat div{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+
+.restaurants section img{
+  height: 120px;
+}
+
+.re-section, .recept-section {
+  display: flex;
+  align-items: center;
+  background-color: #feeedf;
+  border: 3px solid #34a248;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.re-section img {
+  max-height: 200px;
+  margin-right: 10px;
+}
+
+.recept-section img {
+  max-height: 110px;
+  margin-right: 10px;
+}
+
+.re-section .text-content, .recept-section .text-content {
+  display: block;
+}
+
+
+
+section a{
+  background-color: #269239;
+  color: #feeedf;
+  padding: 3px;
+  max-width: fit-content;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+section a:hover{
+  background-color: #feeedf;
+  color: #269239;
+}
+
+footer {
+  background-image: url(../good4food/images/vlakfooter.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%; 
+  height: 121px;
+  position: fixed;
+  bottom: 0; 
+  left: 0;
+  display: flex;
+  align-items: flex-end; 
+  justify-content: center; 
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around; 
+  align-items: flex-end; 
+  gap: 30px;
+}
+
+ul img {
+  height: 60px;
+} 
